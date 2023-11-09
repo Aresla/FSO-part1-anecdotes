@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/FSO-part1-anecdotes/static/js/main.d8a378cd.js",
+    "main.js": "/FSO-part1-anecdotes/static/js/main.8c52b1ec.js",
     "index.html": "/FSO-part1-anecdotes/index.html",
-    "main.d8a378cd.js.map": "/FSO-part1-anecdotes/static/js/main.d8a378cd.js.map"
+    "main.8c52b1ec.js.map": "/FSO-part1-anecdotes/static/js/main.8c52b1ec.js.map"
   },
   "entrypoints": [
-    "static/js/main.d8a378cd.js"
+    "static/js/main.8c52b1ec.js"
   ]
 }

@@ -1,0 +1,18 @@
+body {
+   background-color: antiquewhite;
+}
+
+.btns {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.btns button {
+    background-color: cadetblue;
+    color: beige;
+    border-radius: 10px;
+}
+
+.votes {
+    margin: 0.5rem;
+}
