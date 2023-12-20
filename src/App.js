@@ -29,9 +29,9 @@ const App = () => {
   const indexOfMaxVote = votes.indexOf(maxVoteValue);
   const randomAnecdote = () => Math.floor(Math.random() * (anecdotes.length + 1));
   return (
-    <div>
+    <div className='content'>
       <h1>Anecdote of the day</h1>
-      {anecdotes[selected]}
+      <spin className="text-font">{anecdotes[selected]}</spin>
       <br />
       <div className='votes'>has {votes[selected]} votes</div>
       <br />
@@ -40,7 +40,7 @@ const App = () => {
         <Button handleClick={() => setSelected(() => randomAnecdote())} text={"next anecdote"}/>
       </div>
       <h1>Anecdote with more votes</h1>
-      {anecdotes[indexOfMaxVote]}
+      <spin className="text-font">{anecdotes[indexOfMaxVote]}</spin>
       <div className='votes'>has {votes[indexOfMaxVote]} votes</div>
     </div>
   )
